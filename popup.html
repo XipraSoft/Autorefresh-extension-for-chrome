@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 250px; font-family: Arial, sans-serif; text-align: center; padding: 10px;}
+    h3 { margin-top: 0; }
+    input { width: 80%; padding: 5px; margin: 10px 0; }
+    button { width: 45%; padding: 10px; border: none; color: white; cursor: pointer; }
+    #startBtn { background-color: #4CAF50; }
+    #stopBtn { background-color: #f44336; }
+    #status { margin-top: 15px; font-weight: bold; color: #333; height: 20px; }
+  </style>
+</head>
+<body>
+  <h3>Refresh Interval (seconds)</h3>
+  <input type="number" id="interval" min="5" value="30">
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
